@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arup | Web Developer</title>
+    <meta name="description"
+        content=Arup" - Full-Stack Developer specializing in modern web solutions and digital history archives.">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top py-3 transition-all" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3 text-white" href="index.html">ARUP<span
+                        class="accent-dot">.</span></a>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="bi bi-list text-white fs-1"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-lg-4">
+                        <li class="nav-item"><a class="nav-link active text-white px-3" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white-50 px-3" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white-50 px-3" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-white-50 px-3" href="services.html">Services</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <a href="contact.html" class="btn btn-indigo rounded-pill px-4">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-overlay"></div>
+                    <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&auto=format&fit=crop&q=80"
+                        class="carousel-img" alt="Tech Architecture">
+                    <div class="position-absolute text-white fw-bold text-center"
+                        style="top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 2rem; border-radius: 10px; z-index: 1040; max-width: 80%;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">Innovative Web Developer Portfolio</div>
+                        <div style="font-size: 1.2rem; font-weight: 400;">Showcasing cutting-edge web development
+                            solutions that blend creativity with technology to deliver exceptional user experiences and
+                            drive business growth.</div>
+                    </div>
+                    <div class="container h-100 position-relative" style="z-index: 3;">
+                        <div class="carousel-caption text-start d-flex flex-column justify-content-center h-100">
+                            <h2 class="display-3 fw-bold mb-3">Precision Engineering,<br>Elegant Design</h2>
+                            <p class="lead mb-4 text-white-50">Crafting premium digital experiences that push the
+                                boundaries of modern web architecture.</p>
+                            <div>
+                                <a href="portfolio.html" class="btn btn-indigo btn-lg rounded-pill px-5">View
+                                    Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&auto=format&fit=crop&q=80"
+                        class="carousel-img" alt="Clean Code">
+                    <div class="position-absolute text-white fw-bold text-center"
+                        style="top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 2rem; border-radius: 10px; z-index: 1040; max-width: 80%;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">Scalable Web Developer Portfolio</div>
+                        <div style="font-size: 1.2rem; font-weight: 400;">Building scalable web applications with modern
+                            frameworks and best practices to ensure performance, security, and seamless user
+                            interactions across all devices.</div>
+                    </div>
+                    <div class="container h-100 position-relative" style="z-index: 3;">
+                        <div class="carousel-caption text-start d-flex flex-column justify-content-center h-100">
+                            <h2 class="display-3 fw-bold mb-3">Code That Scales,<br>Solutions That Last</h2>
+                            <p class="lead mb-4 text-white-50">Specializing in high-performance full-stack applications
+                                built for global impact.</p>
+                            <div>
+                                <a href="services.html" class="btn btn-indigo btn-lg rounded-pill px-5">Explore
+                                    Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <img src="https://plus.unsplash.com/premium_photo-1685086785054-d047cdc0e525?w=1200&auto=format&fit=crop&q=80"
+                        class="carousel-img" alt="Global Network">
+                    <div class="position-absolute text-white fw-bold text-center"
+                        style="top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 2rem; border-radius: 10px; z-index: 1040; max-width: 80%;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">Legacy Web Developer Portfolio</div>
+                        <div style="font-size: 1.2rem; font-weight: 400;">Preserving digital legacies through innovative
+                            web solutions that combine historical significance with modern technology to create
+                            meaningful and enduring online experiences.</div>
+                    </div>
+                    <div class="container h-100 position-relative" style="z-index: 3;">
+                        <div class="carousel-caption text-start d-flex flex-column justify-content-center h-100">
+                            <h2 class="display-3 fw-bold mb-3">Preserving Legacy<br>Through Innovation</h2>
+                            <p class="lead mb-4 text-white-50">Merging historical significance with cutting-edge
+                                technology to create meaningful digital archives.</p>
+                            <div>
+                                <a href="contact.html" class="btn btn-indigo btn-lg rounded-pill px-5">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section id="about" class="section-padding bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1563584316028-2b70b3a3a8bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxwZXJzb258ZW58MHx8MHx8fDA%3D"
+                                class="img-fluid rounded-5 shadow-2xl" alt="Shahrear Emon">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-lg-5">
+                        <h6 class="text-indigo fw-bold mb-2">WHO I AM</h6>
+                        <h2 class="section-title mb-4 text-start after-left">About Me</h2>
+                        <p class="lead text-muted mb-4">I am a passionate Full-Stack Developer with over 8 years of
+                            experience in crafting high-end digital solutions.</p>
+                        <p class="mb-4 text-secondary">My journey in technology started with a simple curiosity for how
+                            things work on the web, which evolved into a career dedicated to building performant and
+                            accessible applications. I am particularly proud of my work on digital archives for
+                            <strong>liberation war history</strong>, preserving vital records for future generations.
+                        </p>
+                        <div class="row g-4 mb-5">
+                            <div class="col-6 col-md-4">
+                                <div class="stat-box">
+                                    <h4 class="mb-0 fw-bold">8+ Years</h4>
+                                    <small class="text-muted">Experience</small>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="stat-box">
+                                    <h4 class="mb-0 fw-bold">150+</h4>
+                                    <small class="text-muted">Projects Completed</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="about.html" class="btn btn-outline-indigo rounded-pill px-4">Learn More About Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding bg-slate-dark text-white">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-12">
+                        <h2 class="section-title text-white">Mission & Vision</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="glass-card">
+                            <div class="icon-circle mb-4"><i class="bi bi-rocket-takeoff"></i></div>
+                            <h3>Our Mission</h3>
+                            <p class="text-white-50">To provide innovative, scalable, and high-quality digital solutions
+                                that empower individuals and organizations to reach their full potential in the digital
+                                age.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="glass-card">
+                            <div class="icon-circle mb-4"><i class="bi bi-eye"></i></div>
+                            <h3>Our Vision</h3>
+                            <p class="text-white-50">To be a global leader in technological innovation, setting new
+                                standards for quality, accessibility, and user-centric design in every project we
+                                undertake.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section-padding bg-white">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-12">
+                        <h2 class="section-title">Services I Offer</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card shadow-sm">
+                            <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+                            <h4>Web Development</h4>
+                            <p class="text-muted">Custom websites built with the latest technologies focusing on speed
+                                and responsiveness.</p>
+                            <a href="services.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card shadow-sm">
+                            <div class="service-icon"><i class="bi bi-phone"></i></div>
+                            <h4>App Development</h4>
+                            <p class="text-muted">Powerful mobile applications for iOS and Android with seamless user
+                                experiences.</p>
+                            <a href="services.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card shadow-sm">
+                            <div class="service-icon"><i class="bi bi-palette"></i></div>
+                            <h4>UI/UX Design</h4>
+                            <p class="text-muted">Modern and intuitive interfaces designed to engage users and improve
+                                conversions.</p>
+                            <a href="services.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section-padding bg-light">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-12">
+                        <h2 class="section-title">Client Feedback</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="stars mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="fst-italic text-secondary">"He delivered our project on time and exceeded all
+                                our expectations. His attention to detail is remarkable."</p>
+                            <div class="d-flex align-items-center mt-4 pt-3 border-top">
+                                <div class="fw-bold">Steve Smith</div>
+                                <div class="ms-2 text-muted small">| CEO, InnovateTech</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="stars mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="fst-italic text-secondary">"The best developer we've worked with. The code is
+                                clean, documented, and extremely performant."</p>
+                            <div class="d-flex align-items-center mt-4 pt-3 border-top">
+                                <div class="fw-bold">Lisa Wong</div>
+                                <div class="ms-2 text-muted small">| CTO, Digital Dynamics</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="stars mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-half"></i>
+                            </div>
+                            <p class="fst-italic text-secondary">"Highly professional and communicative throughout the
+                                process. Highly recommended for any project."</p>
+                            <div class="d-flex align-items-center mt-4 pt-3 border-top">
+                                <div class="fw-bold">Emily Davis</div>
+                                <div class="ms-2 text-muted small">| Founder, GlowDev</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 border-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-0">ARUP</h5>
+                </div>
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://github.com" class="text-white" title="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com" class="text-white" title="LinkedIn"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://twitter.com" class="text-white" title="Twitter/X"><i
+                                class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <small id="live-date-time" class="text-white-50 fw-bold"></small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
